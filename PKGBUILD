@@ -1,5 +1,5 @@
 # Maintainer: McQueen <clear3239@yahoo.com>
-_pkgname=plank-theme-data-Stora
+_pkgname=plank-theme-data-stora
 pkgname=$_pkgname-git
 pkgver=0.1
 pkgrel=1
@@ -18,6 +18,6 @@ build() {
 
 package() {
 	cd $srcdir/$_pkgname
-	mkdir -p $pkgdir/usr/share/plank/themes/data-Stora
-	install -m 755 dock.theme $pkgdir/usr/share/plank/themes/data-Stora/
+	mkdir -p $pkgdir/usr/share/plank/themes/data-stora
+	install -m 755 dock.theme $pkgdir/usr/share/plank/themes/data-stora/
 }
